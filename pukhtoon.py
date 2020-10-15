@@ -402,7 +402,7 @@ def action():
                                                 oks.append(c+user+pass5)
                                             else:
                                                 if 'www.facebook.com' in q['error_msg']:
-                                                    print '\033[1;97m(OHH NO) ' + k + c + user + '  |  ' + pass5 
+                                                    print '\033[1;97m(ERROR) ' + k + c + user + '  |  ' + pass5 
                                                     cps = open('save/cloned.txt', 'a')
                                                     cps.write(k+c+user+pass5+'\n')
                                                     cps.close()
