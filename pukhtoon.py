@@ -494,7 +494,7 @@ def action():
 
 
 \033[1;96mThanks me later
-\033[1;95mFb\033[1;97mSOmi
+\033[1;95mFb\033[1;97mM-ULLAH
 \033[1;95myoutube\033[1;97mhttps://w ww.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g"""
 
     
